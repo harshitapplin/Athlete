@@ -82,7 +82,7 @@ margin: 0;
    }
    .info label i{
     
-    color: orangered;
+    color: rgb(164, 6, 6);
    }
    .info input{
     float: right;
