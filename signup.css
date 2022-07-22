@@ -1,0 +1,100 @@
+body{
+    background: #eee;
+}
+.signup{
+    width:  500px;
+    background: white;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.signup header{
+    margin-top: 20px;
+    font-size: large;
+    font-style: bold;
+    color: rgb(210, 187, 10);
+}
+form{
+    background: whitesmoke;
+    justify-content: center;
+}
+.wraper{
+    display:  flex;
+    background: white;
+    padding: 10px 10px;
+    justify-content: center;
+}
+.img-cont{  
+    margin-right: 20px;  
+    margin-top: 20px;
+}
+.img-cont i{
+font-size: 40px;
+height: 100px;
+width: 100px;
+border: 1px solid white;
+border-radius: 100%;
+background: darkgray;
+text-align: center;
+box-sizing: border-box;
+padding-top: 25px; 
+color:rgb(3, 3, 80);
+
+}    
+.feilds{
+    width: 3000px;
+    padding-bottom : 30px;
+    box-sizing: border-box;
+}
+.feilds label{
+    position: relative;
+    top: 35px;
+    color: grey;
+    font-size: small;
+} 
+.feilds input{
+    height: 37px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(3, 3, 80);
+    width: 70%;
+    color:rgb(3, 3, 80);
+}
+.myinfo h1{
+margin: 0;
+}
+.info{
+    height: 35px;
+    background: white;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+   }
+
+.info::after{
+    content: "";
+ display: table;
+ clear: both;
+}
+.info label{
+    float: left;
+    padding-top: 5px;
+    color: gray;
+   }
+   .info label i{
+    
+    color: orangered;
+   }
+   .info input{
+    float: right;
+    height: 30px;
+    width: 60%;
+    border: none;
+    outline: none;
+   }
+   .info input::placeholder{
+    text-align: right;
+   }
+   .radio-btn{
+    height: 5px;
+    width: 5px;
+   }
